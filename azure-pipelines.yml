@@ -22,7 +22,7 @@ steps:
   
 - task: PublishBuildArtifacts@1
   inputs:
-    pathtoPublish: 'drop' 
+    pathtoPublish: 'build' 
     artifactName: 'drop' 
     publishLocation: 'filePath'
     targetPath: 'Azure Pipelines/TFS'
